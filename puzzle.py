@@ -33,6 +33,7 @@ MaxFrontier = 0 #max frontier
 #BFS**************************************************************
 def bfs(startState):
 
+    
     global MaxFrontier, GoalNode, MaxSearchDeep
 
     boardVisited= set()
